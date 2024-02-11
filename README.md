@@ -57,7 +57,7 @@ long:
 These entries must be sorted in ascending order of `DupeOffset`, and the value
 of `DupeOffset+Length` should never exceed the `DupeOffset` of the next entry.
 
-Each of these entries indicates that, in the originial (or reduplicated) file,
+Each of these entries indicates that, in the original (or reduplicated) file,
 the data found at `DupeOffset` is identical to that at `MatchOffset`, and that
 it continues to match for the number of bytes specified by `Length`.
 NB: sometimes a sequence of bytes which repeats multiple times will be encoded

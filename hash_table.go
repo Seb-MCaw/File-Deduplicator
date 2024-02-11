@@ -225,7 +225,7 @@ func IndexOfKey(entrySlice []denseHashTableEntry, key uint64) (bool, int) {
 	}
 }
 
-// A denseHashTable maps uint64 keys onto uint64 values.
+// An OptimisedHashTable maps uint64 keys onto uint64 values.
 //
 // One key can map to multiple values. For best performance, the first few
 // bits of the keys should be uniformly distributed, but correlations in the
